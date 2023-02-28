@@ -1,0 +1,184 @@
+/* * {
+  border: 1px solid #9c0404;
+} */
+
+body {
+  background: #314657 !important;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar {
+  font-family: "Arial Narrow Bold", sans-serif, times;
+  font-weight: bolder;
+  background: #223442 !important;
+  font-size: medium;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  transition: 0.6s ease-in-out;
+  padding: 0 24px 0 24px;
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000000;
+
+  text-decoration: 5px solid rgb(30, 97, 27) underline;
+}
+
+.card {
+  background: #213c50;
+  color: white;
+  font-family: "san-serif" Arial;
+  padding: 7px 15px 26px 15px;
+  margin: 5px;
+  transition: 0.4s ease-in-out;
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.card:hover {
+  background: #314657;
+  padding: 6px 14px 24px 13px;
+}
+
+.down-btn {
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.down-btn:hover {
+  padding: 6px 0px 0px 0px;
+}
+
+.destinations {
+  color: white;
+  overflow: hidden;
+}
+
+.destinations h2 {
+  background-image: url("pictures/button.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: black;
+}
+
+.destinations h3 {
+  background-image: url("pictures/button.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: black;
+}
+
+.t-image {
+  width: 650px;
+}
+
+.blog-section h2 {
+  background-image: url("pictures/button.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+}
+
+.hiking h2 {
+  background-image: url("pictures/button.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+}
+
+.aboutus h2 {
+  background-image: url("pictures/button.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+}
+
+.aboutus .about-margin {
+  margin: 79px 76px 36px 76px;
+}
+
+.aboutus h1,
+p {
+  color: white;
+}
+
+.aboutus img {
+  border-radius: 250px;
+}
+
+.team .card-body {
+  font-size: 15px;
+}
+
+.team .card-body img {
+  border-radius: 300px;
+  height: 105px;
+  width: 100px;
+}
+
+.team .section-header h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+
+/* .team .section-header p {} */
+
+.team .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.signup .sign {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: medium;
+}
+
+.signup .sinup {
+  margin: 40px 0px 0px 0px;
+}
+
+.signup h2 {
+  background-image: url("pictures/button.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+}
+
+.footer {
+  background: #223442 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  height: 84px;
+  width: 100%;
+}
